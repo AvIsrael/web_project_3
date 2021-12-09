@@ -33,7 +33,7 @@
 
     .places__item:last-of-type {
         padding-bottom: 0;
-        grid-template-rows: 1fr 340px 1fr
+        grid-template-rows: 1fr 340px 1fr;
     }
 }
 

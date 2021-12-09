@@ -6,6 +6,6 @@
  > 3rd part of practicum with new features like grids and 
 
 > 
-### *In next part will be added at least adaptive design for all screen dimensions.* 
+### *Added adaptive design for different screen dimensions.* 
 
 ## link to project: https://github.com/AvIsrael/web_project_3

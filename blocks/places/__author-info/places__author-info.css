@@ -1,0 +1,12 @@
+.places__author-info {
+    grid-area: author;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .places__author-info {
+        margin: 0 16px;
+    }
+}

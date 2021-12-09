@@ -1,0 +1,10 @@
+.places__author-text {
+    color: #AAA;
+    line-height: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin: 0 0 8px 0;
+    padding: 0;
+}

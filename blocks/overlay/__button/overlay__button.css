@@ -1,0 +1,12 @@
+.overlay__button {
+    margin-top: 32px;
+    width: 137px;
+    text-align: center;
+    height: 48px;
+}
+
+@media screen and (max-width: 767px) {
+    .overlay__button {
+        margin-top: 16px;
+    }
+}

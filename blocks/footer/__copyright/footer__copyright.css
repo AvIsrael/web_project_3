@@ -1,0 +1,16 @@
+.footer__copyright {
+    margin: 0;
+    padding: 92px 0 24px 0;
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__copyright {
+        padding: 88px 0 24px 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        padding-top: 64px;
+    }
+}

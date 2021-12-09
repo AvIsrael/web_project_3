@@ -1,0 +1,18 @@
+.button {
+    background: #0278FE;
+    color: #FFF;
+    line-height: 48px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+    transition: opacity 1s ease-in-out;
+}
+
+.button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: rgba(0, 99, 210, 1);
+}
+

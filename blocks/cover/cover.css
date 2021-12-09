@@ -1,0 +1,23 @@
+.cover {
+    background: url("../../images/__background.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    min-height: 740px;
+    display: flex;
+}
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        margin-top: 92px;
+        width: 100%;
+        min-height: 746px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        margin-top: 64px;
+        width: 100%;
+        min-height: 254px;
+    }
+}

@@ -3,9 +3,12 @@
 
 * Project # 3
 
- > 3rd part of practicum with new features like grids and 
+> In this part I used technologies in HTML and CSS like
+* Flex
+* Grid
+* BEM
+* Adaptive and responsive design
 
-> 
 ### *Added adaptive design for different screen dimensions.* 
 
-## link to project: https://github.com/AvIsrael/web_project_3
+## link to project: https://avisrael.github.io/web_project_3/

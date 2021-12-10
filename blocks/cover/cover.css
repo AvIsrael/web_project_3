@@ -4,20 +4,19 @@
     width: 100%;
     min-height: 740px;
     display: flex;
+    margin-top: 92px;
 }
 
 @media screen and (max-width: 1279px) {
     .cover {
-        margin-top: 92px;
-        width: 100%;
         min-height: 746px;
+        margin-top: 0;
     }
 }
 
 @media screen and (max-width: 767px) {
     .cover {
         margin-top: 64px;
-        width: 100%;
         min-height: 254px;
     }
 }

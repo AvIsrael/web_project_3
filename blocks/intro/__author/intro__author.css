@@ -13,9 +13,8 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px){
     .intro__author {
-        line-height: 34px;
-        font-size: 24px;
+        padding: 0 16px;
     }
 }

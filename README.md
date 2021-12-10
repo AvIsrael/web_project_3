@@ -7,7 +7,7 @@
 * Flex
 * Grid
 * BEM
-* Adaptive and responsive design
+
 
 ### *Added adaptive design for different screen dimensions.* 
 

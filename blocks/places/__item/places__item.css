@@ -1,25 +1,21 @@
 .places__item {
     display: grid;
     grid-template-columns: 460px 1fr;
-    grid-template-rows: max-content 460px max-content;
+    grid-template-rows: 1fr 460px;
     grid-gap: 48px 40px;
     grid-template-areas:
     'header author'
     'image text'
-    'button .';
-    padding-bottom: 80px;
+    'button text';
 }
 
 @media screen and (max-width: 1279px) {
     .places__item {
         grid-column-gap: 28px;
-        grid-template-rows: 1fr 340px 2fr;
         grid-template-columns: 340px 1fr;
+        grid-template-rows: 1fr 340px 2fr;
         margin: 0 24px 73px 24px;
         padding-bottom: 0;
-    }
-    .places__item:last-of-type {
-        grid-template-rows: 1fr 340px 3.2fr;
     }
 }
 
@@ -36,9 +32,6 @@
             'button';
         padding-bottom: 50px;
         margin: 0;
-    }
-    .places__item:last-of-type {
-        grid-template-rows: min-content min-content min-content min-content min-content;
     }
 }
 

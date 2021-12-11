@@ -7,6 +7,11 @@
     'header author'
     'image text'
     'button text';
+    padding-bottom: 80px;
+}
+
+.places__item:last-of-type {
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -14,8 +19,11 @@
         grid-column-gap: 28px;
         grid-template-columns: 340px 1fr;
         grid-template-rows: 1fr 340px 2fr;
-        margin: 0 24px 73px 24px;
+        margin: 0 24px 72px 24px;
         padding-bottom: 0;
+    }
+    .places__item:last-of-type {
+        margin-bottom: 0;
     }
 }
 
